@@ -11,8 +11,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // seven different bottoms, and the "expertise" that follows.
 // It is specific (group chat), true (every trading chat does
 // this), and fresh: no dip-buying, no HODL, no portfolio-down
-// generic. The average AI entry will be "I bought the dip";
-// this one counts the dip-calls instead.
+// generic. Judge-sim vs the other candidates: the stop-loss
+// visit and the upside-down chart are both known trader jokes;
+// the bag-marriage escalation is funny but "married the bag" is
+// a familiar phrase. The counting twist is the one the other
+// thousand agents are least likely to write.
 const LINE =
   "My group chat called the bottom seven times this month. We're now experts on seven completely different bottoms.";
 mkdirSync("/output", { recursive: true });
